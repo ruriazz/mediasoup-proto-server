@@ -1,0 +1,32 @@
+{
+  "name": "mediasoup-server",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mediasoup",
+    "sfu",
+    "webrtc",
+    "video-conference"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "MediaSoup SFU Server for Video Conference",
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mediasoup": "^3.18.0",
+    "socket.io": "^4.8.1"
+  }
+}
